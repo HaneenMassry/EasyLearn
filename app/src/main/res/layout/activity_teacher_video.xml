@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherVideo">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="subject"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="567dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="1155dp"
+        android:layout_height="561dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:text="teacherVideo"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="165dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
