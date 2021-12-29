@@ -9,17 +9,24 @@
     <Button
         android:id="@+id/start"
         android:layout_width="474dp"
-        android:layout_height="207dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="91dp"
         android:text="Start"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="403dp"
-        tools:layout_editor_absoluteY="602dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Logo" />
 
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="397dp"
-        android:layout_height="265dp"
-        app:srcCompat="@drawable/logoEasyLern"
-        tools:layout_editor_absoluteX="442dp"
-        tools:layout_editor_absoluteY="233dp" />
+        android:layout_height="0dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoEasyLern" />
 </androidx.constraintlayout.widget.ConstraintLayout>
